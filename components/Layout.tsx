@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react'
 import Nav from "./Nav"
+import Footer from "./Footer"
 import Carousel from "./Carousel"
 
 interface Children {
@@ -12,6 +13,7 @@ const Layout = ({ children }: Children) => {
       <Nav />
       <Carousel />
       {children}
+      <Footer />
     </div>
   )
 }
