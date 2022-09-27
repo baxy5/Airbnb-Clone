@@ -37,7 +37,7 @@ const Carousel = () => {
                 },
             }}>
                 <SwiperSlide>
-                    <div className='flex flex-col items-center hover:border-b-2 transition-all duration-100 ease-in-out cursor-pointer'>
+                    <div className='flex flex-col items-center border-b-2 border-white hover:border-b-2 hover:border-gray-200 transition-all duration-100 ease-in-out cursor-pointer'>
                         <Image src="/cityscape.png" height={24} width={24} />
                         <p>Város</p>
                     </div>
@@ -138,15 +138,60 @@ const Carousel = () => {
                         <p>Város</p>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>Slide 18</SwiperSlide>
-                <SwiperSlide>Slide 19</SwiperSlide>
-                <SwiperSlide>Slide 20</SwiperSlide>
-                <SwiperSlide>Slide 21</SwiperSlide>
-                <SwiperSlide>Slide 22</SwiperSlide>
-                <SwiperSlide>Slide 23</SwiperSlide>
-                <SwiperSlide>Slide 24</SwiperSlide>
-                <SwiperSlide>Slide 25</SwiperSlide>
-                <SwiperSlide>Slide 26</SwiperSlide>
+                <SwiperSlide>
+                    <div className='flex flex-col items-center hover:border-b-2 transition-all duration-100 ease-in-out cursor-pointer'>
+                        <Image src="/cityscape.png" height={24} width={24} />
+                        <p>Város</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='flex flex-col items-center hover:border-b-2 transition-all duration-100 ease-in-out cursor-pointer'>
+                        <Image src="/cityscape.png" height={24} width={24} />
+                        <p>Város</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='flex flex-col items-center hover:border-b-2 transition-all duration-100 ease-in-out cursor-pointer'>
+                        <Image src="/cityscape.png" height={24} width={24} />
+                        <p>Város</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='flex flex-col items-center hover:border-b-2 transition-all duration-100 ease-in-out cursor-pointer'>
+                        <Image src="/cityscape.png" height={24} width={24} />
+                        <p>Város</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='flex flex-col items-center hover:border-b-2 transition-all duration-100 ease-in-out cursor-pointer'>
+                        <Image src="/cityscape.png" height={24} width={24} />
+                        <p>Város</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='flex flex-col items-center hover:border-b-2 transition-all duration-100 ease-in-out cursor-pointer'>
+                        <Image src="/cityscape.png" height={24} width={24} />
+                        <p>Város</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='flex flex-col items-center hover:border-b-2 transition-all duration-100 ease-in-out cursor-pointer'>
+                        <Image src="/cityscape.png" height={24} width={24} />
+                        <p>Város</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='flex flex-col items-center hover:border-b-2 transition-all duration-100 ease-in-out cursor-pointer'>
+                        <Image src="/cityscape.png" height={24} width={24} />
+                        <p>Város</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='flex flex-col items-center hover:border-b-2 transition-all duration-100 ease-in-out cursor-pointer'>
+                        <Image src="/cityscape.png" height={24} width={24} />
+                        <p>Város</p>
+                    </div>
+                </SwiperSlide>
             </Swiper>
         </div>
     )

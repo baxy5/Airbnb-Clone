@@ -5,7 +5,7 @@ import { Links } from "./Footer/index"
 
 const Footer = () => {
   return (
-    <div className='xl:px-20 flex flex-col md:flex-row justify-between text-sm border-t-2 fixed bottom-0 w-full p-3'>
+    <div className='xl:px-20 bg-white flex flex-col md:flex-row justify-between text-sm border-t-2 fixed bottom-0 w-full p-3'>
       <div className='flex items-center gap-10 flex-col md:flex-row'>
         <p>© 2022 Airbnb, Inc.</p>
         <Links data="Adatvédelem" />

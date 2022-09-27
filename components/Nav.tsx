@@ -1,5 +1,6 @@
 import React from 'react'
 import { Logo, ProfileBar, SearchBar } from "./Nav/index.js"
+import Carousel from "./Carousel"
 
 const Nav = () => {
     return (
@@ -9,6 +10,7 @@ const Nav = () => {
                 <SearchBar />
                 <ProfileBar />
             </div>
+            <Carousel />
         </div>
     )
 }

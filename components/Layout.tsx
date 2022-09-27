@@ -11,7 +11,6 @@ const Layout = ({ children }: Children) => {
   return (
     <div>
       <Nav />
-      <Carousel />
       {children}
       <Footer />
     </div>
