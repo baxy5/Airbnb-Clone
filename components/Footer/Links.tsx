@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Links = () => {
+const Links = ({ data }: any) => {
     return (
         <div className='flex justify-center items-center'>
             <a href="/">
-                Adatvédelem
+                {data}
             </a>
         </div>
     )
