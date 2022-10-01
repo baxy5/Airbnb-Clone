@@ -4,7 +4,7 @@ import { CardImage, CardInfo } from "./Card/index"
 
 const Card = () => {
     return (
-        <div>
+        <div className='cursor-pointer'>
             <CardImage />
             <CardInfo />
         </div>
