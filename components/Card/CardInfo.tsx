@@ -2,15 +2,15 @@ import React from 'react'
 
 const CardInfo = () => {
     return (
-        <div>
+        <div className='flex justify-between'>
             <div>
-                <p>Lisac, Horvátország</p>
-                <p>Profi házigazda</p>
-                <p>okt. 8-13.</p>
-                <p>Ft74 777 éj</p>
+                <p className='font-bold'>Lisac, Horvátország</p>
+                <p className='text-sm text-gray-800'>Profi házigazda</p>
+                <p className='text-sm text-gray-800'>okt. 8-13.</p>
+                <p className='mt-2'><span className='font-bold text-sm'>Ft74 777</span> éj</p>
             </div>
             <div>
-                {/* csillag */}
+                ⭐
                 5,0
             </div>
         </div>
