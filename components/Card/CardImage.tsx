@@ -8,7 +8,7 @@ const CardImage = () => {
         <Image src="/love.png" height={16} width={16} />
       </div>
       {/* carousel */}
-      <Image src="/a.jpg" width={300} height={300} className="rounded-xl" />
+      <Image src="/kaneki.jpg" width={300} height={300} className="rounded-xl  object-cover" />
     </div>
   )
 }
