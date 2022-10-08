@@ -1,6 +1,9 @@
+import { useContext, createContext } from 'react'
 import type { NextPage } from 'next'
 import Layout from "../components/Layout"
 import Card from '../components/Card'
+
+const airbnbData = createContext("")
 
 const Home: NextPage<any> = () => {
   return (
@@ -15,7 +18,9 @@ const Home: NextPage<any> = () => {
           {/* TODO: solution for key error */}
           {
             Array(20).fill(
-              <Card />
+              <airbnbData.Provider value="Germany">
+                <Card />
+              </airbnbData.Provider>
             )
           }
         </div>

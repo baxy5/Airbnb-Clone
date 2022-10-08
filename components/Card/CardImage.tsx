@@ -5,7 +5,7 @@ const CardImage = () => {
   return (
     <div className='relative'>
       <div className="absolute top-5 right-5 z-50">
-        <Image src="/love.png" height={16} width={16} />
+        <Image src="/love.png" height={20} width={20} />
       </div>
       {/* carousel */}
       <Image src="/kaneki.jpg" width={300} height={300} className="rounded-xl  object-cover" />
